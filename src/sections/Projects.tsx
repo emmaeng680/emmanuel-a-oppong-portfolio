@@ -52,7 +52,7 @@ export const ProjectsSection = () => {
             <p className='uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-center bg-clip-text text-transparent'>Real-world
               Results</p>
           </div>
-          <h2 className='font-serif text-3xl text-center mt-6 '>Featured Projects Here</h2>
+          <h2 className='font-serif text-3xl text-center mt-6 '>Featured Projects</h2>
           <p className='text-center text-white/60 mt-4 '>Welcome to my world where I transform concepts into engaging digital experiences.</p>
           <div className='flex flex-col mt-10 '>
             {portfolioProjects.map(project => (
