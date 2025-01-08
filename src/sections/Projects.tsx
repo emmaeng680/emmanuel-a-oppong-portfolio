@@ -10,25 +10,25 @@ import Card from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "EMMALINGO",
+    company: "Lingo",
     year: "2024",
-    title: "Emmalingo Landing Page",
+    title: "Lingo Landing Page",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Enhanced User Engagement" },
+      { title: "Modern Tech Stack" },
+      { title: "Efficient Development" },
     ],
     link: "https://duolingo-clone-next-14.vercel.app/",
     image: darkSaasLandingPage,
   },
   {
-    company: "EQUILEARN",
+    company: "Equilearn",
     year: "2024",
     title: "Equilearn Landing Page",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "AI-Powered Resource Curation" },
+      { title: "Personalized Recommendations" },
+      { title: "Accessible Learning Solutions" },
     ],
     link: "https://learning-resource-recommender.vercel.app/",
     image: lightSaasLandingPage,
@@ -38,9 +38,9 @@ const portfolioProjects = [
     year: "2024",
     title: "Alienbird Landing Page",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Interactive Gameplay" },
+      { title: "Fully Responsive Design" },
+      { title: "Creative Twist" },
     ],
     link: "https://emmaeng680.github.io/Alienbird/",
     image: aiStartupLandingPage,
