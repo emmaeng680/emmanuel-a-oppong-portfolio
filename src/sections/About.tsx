@@ -105,7 +105,7 @@ export const AboutSection = () => {
               </Card>
               {/*2*/}
               <Card className="h-[320px]  md:col-span-3 lg:col-span-2">
-                  <CardHeader title='My Toolbox' description='Explore the technologies and tools used to craft exceptional digital experiences.' className="" />
+                  <CardHeader title='My Toolbox' description='Explore the technologies and tools I use to craft exceptional digital experiences.' className="" />
                     <ToolboxItems items={toolboxItems} className="" />
                     <ToolboxItems items={toolboxItems} className="mt-6 " itemsWrapperClassName = "-translate-x-1/2"/>
               </Card>
