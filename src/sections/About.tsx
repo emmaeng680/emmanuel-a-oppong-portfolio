@@ -91,7 +91,7 @@ const hobbies = [
 
 export const AboutSection = () => {
   return (
-      <div className="pb-20 lg:py-28">
+      <section id="about" className="pb-20 lg:py-28">
           <div className="container">
         <SectionHeader title="A Glimpse Into My World" eyebrow="About Me" description="Learn more about who I am, what I do, and what inspires me." />
           <div className="mt-20 flex flex-col gap-8">
@@ -136,6 +136,6 @@ export const AboutSection = () => {
               </div>
           </div>
       </div>
-      </div>
+      </section>
   )
 };
