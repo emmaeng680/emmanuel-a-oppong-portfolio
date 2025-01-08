@@ -19,10 +19,10 @@ const footerLinks = [
     title: 'Instagram',
     link: 'https://www.instagram.com/chukus_manny/',
   },
-  {
-    title: 'Twitter',
-    link: '#',
-  },
+  // {
+  //   title: 'Twitter',
+  //   link: '#',
+  // },
 
 
 ]
