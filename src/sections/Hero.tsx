@@ -74,10 +74,14 @@ export const HeroSection = () => {
               </div>
 
               <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
-                  <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
+                  <a href='#projects' className='z-10'>
+                  <button  className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
                       <span className='font-semibold '>Explore my work</span>
                       <ArrowDown className='size-4'/>
                   </button>
+                  </a>
+
+                  <a href='#contact' className='z-10'>
                   <button
                       className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl '>
                       <span>👋</span>
@@ -85,54 +89,10 @@ export const HeroSection = () => {
                         Let's Connect
                     </span>
                   </button>
+                  </a>
               </div>
 
           </div>
       </div>
   )
 };
-
-
-{/*  <div className='absolute inset-0 -z-30 opacity-5' style={{*/}
-{/*      backgroundImage:`url(${grainImage.src})`*/}
-{/*  }}></div>*/}
-{/*  <div className='size-[620px] hero-ring'></div>*/}
-{/*  <div className='size-[820px] hero-ring'></div>*/}
-{/*  <div className='size-[1020px] hero-ring'></div>*/}
-{/*  <div className='size-[1220px] hero-ring'></div>*/}
-{/*  <div className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 border border-red-500 size-[800px'>*/}
-{/*      <div className='border border-red-500 inline-flex animate-spin [animation-duration:5s]'>*/}
-{/*      <StarIcon className='size-28 text-emerald-300' />*/}
-{/*      </div>*/}
-{/*  </div>*/}
-{/*<div className='container'>*/}
-{/*    <div className='flex flex-col items-center'>*/}
-{/*    <Image src={memojiImage} alt='Person peeking from behind laptop' className='size-[100px]'/>*/}
-{/*    <div className='bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg'>*/}
-{/*        <div className='bg-green-500 size-2.5 rounded-full'></div>*/}
-{/*        <div className='text-sm font-medium'>Available for new project</div>*/}
-{/*    </div>*/}
-{/*    </div>*/}
-{/*    <div className='mw-w-lg mx-auto'>*/}
-{/*    <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Aspiring Software Engineer</h1>*/}
-{/*    <p className='mt-4 text-center text-white/60 md:text-lg '>*/}
-{/*        Fullstack developer with over 3 years experience in all stages of design, coding, and testing for multi-user systems.*/}
-{/*    </p>*/}
-{/*    </div>*/}
-{/*    <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>*/}
-{/*        <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl '>*/}
-{/*            <span className='font-semibold '>*/}
-{/*               Explore my work*/}
-{/*            </span>*/}
-{/*            <ArrowDown className='size-4' />*/}
-{/*        </button>*/}
-{/*        <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>*/}
-{/*            <span>*/}
-{/*                👋*/}
-{/*            </span>*/}
-{/*            <span className='font-semibold '>*/}
-{/*                Let's Connect*/}
-{/*            </span>*/}
-{/*        </button>*/}
-{/*    </div>*/}
-{/*</div>*/}
