@@ -14,6 +14,7 @@ import smileMemoji from "@/assets/images/memoji-smile.png"
 import CardHeader from "@/components/CardHeader";
 import ToolboxItems from "@/components/ToolboxItems";
 import {motion} from "framer-motion";
+import {useRef} from "react";
 
 
 const toolboxItems = [
@@ -90,6 +91,8 @@ const hobbies = [
 ]
 
 export const AboutSection = () => {
+    const constraintRef = useRef(null);
+
   return (
       <section id="about" className="pb-20 lg:py-28">
           <div className="container">
@@ -99,7 +102,7 @@ export const AboutSection = () => {
               {/*1*/}
               <Card className="h-[320px] md:col-span-2 lg:col-span-1">
                   <CardHeader title='My Reads' description='Explore the books shaping my perspectives.' />
-                  <div className="w-40 mx-auto mt-2 md:mt-0">
+                  <div className="w-40 mx-auto mt-2 md:mt-0 transform hover:-translate-y-5 hover:translate-x-2  transition duration-300 ease-out">
                       <Image src={BookImage} alt="Book Cover" />
                   </div>
               </Card>
@@ -114,13 +117,14 @@ export const AboutSection = () => {
               {/*3*/}
               <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
                   <CardHeader title='Beyond the Code' description='Explore my interests and hobbies beyond the digital realm.' className="px-6 py-6 " />
-                  <div className="relative flex-1">
+                  <div className="relative flex-1 " ref={constraintRef}>
                       {hobbies.map(hobby => (
                           <motion.div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute " style={{
                               left: hobby.left,
                               top: hobby.top,
                           }}
                             drag
+                            dragConstraints={constraintRef}
                           >
                               <span className="font-medium text-gray-950 ">{hobby.title}</span>
                               <span>{hobby.emoji}</span>
