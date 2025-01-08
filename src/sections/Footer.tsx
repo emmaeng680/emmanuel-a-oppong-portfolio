@@ -8,12 +8,12 @@ const footerLinks = [
     link: 'https://www.linkedin.com/in/emmanuel-oppong-612bb41b6/',
   },
   {
-    title: 'Leetcode',
-    link: 'https://leetcode.com/u/emmaoppongswe/',
-  },
-  {
     title: 'Github',
     link: 'https://github.com/emmaeng680',
+  },
+  {
+    title: 'Leetcode',
+    link: 'https://leetcode.com/u/emmaoppongswe/',
   },
   {
     title: 'Instagram',
