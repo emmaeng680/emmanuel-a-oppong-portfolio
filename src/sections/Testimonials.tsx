@@ -16,15 +16,15 @@ const testimonials = [
     avatar: memojiAvatar1,
   },
   {
-    name: "Henry Koomson",
+    name: "Mina Aidoo",
     position: "Student Intern @ ALX Africa",
-    text: "Working with Emmanuel was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    text: "Working with Emmanuel was a pleasure. His expertise in frontend development brought our Duolingo clone designs to life in a way we never imagined. The website has exceeded our expectations.",
     avatar: memojiAvatar2,
   },
   {
     name: "Gabriel Asare",
     position: "Student @ Mississipi State University",
-    text: "Emmanuel's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    text: "Emmanuel's ability to create seamless user experiences is unmatched. I have no doubt that any company would greatly benefit from his skills, and I highly recommend him for any role.",
     avatar: memojiAvatar3,
   },
   {
@@ -36,7 +36,7 @@ const testimonials = [
   {
     name: "Ebenezer Kobina Acquah",
     position: "Tech Lead @ EquiLearn",
-    text: "Emmanuel's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    text: "Emmanuel's work on our website, Equilearn has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
     avatar: memojiAvatar5,
   },
 ];
