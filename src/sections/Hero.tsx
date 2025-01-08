@@ -81,7 +81,7 @@ export const HeroSection = () => {
                   </button>
                   </a>
 
-                  <a href='mailto:emmanuelopponga98@gmail.com' className='z-10'>
+                  <a href='mailto:emmanuelopponga2023@gmail.com' className='z-10'>
                   <button
                       className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl '>
                       <span>👋</span>
