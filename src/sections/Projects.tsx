@@ -29,7 +29,7 @@ const portfolioProjects = [
       { title: "Personalized Recommendations" },
       { title: "Accessible Learning Solutions" },
     ],
-    link: "https://learning-resource-recommender.vercel.app/",
+    link: "https://ai-learning-recommender-main.vercel.app/",
     image: lightSaasLandingPage,
   },
   {
