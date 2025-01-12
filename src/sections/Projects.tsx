@@ -1,6 +1,7 @@
 import darkSaasLandingPage from "@/assets/images/dl.png";
 import lightSaasLandingPage from "@/assets/images/el.png";
 import aiStartupLandingPage from "@/assets/images/ab.png";
+import mpStartupLandingPage from "@/assets/images/mp.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
@@ -43,6 +44,18 @@ const portfolioProjects = [
     ],
     link: "https://emmaeng680.github.io/Alienbird/",
     image: aiStartupLandingPage,
+  },
+  {
+    company: "Music Player - Django",
+    year: "2025",
+    title: "Music App Landing Page",
+    results: [
+      { title: "Instant Lyrics Sync" },
+      { title: "Seamless Music Playback" },
+      { title: "User-Friendly Interface" },
+    ],
+    link: "https://music-player-djang.vercel.app/",
+    image: mpStartupLandingPage,
   },
 ];
 
