@@ -2,6 +2,7 @@ import darkSaasLandingPage from "@/assets/images/dl.png";
 import lightSaasLandingPage from "@/assets/images/el.png";
 import aiStartupLandingPage from "@/assets/images/ab.png";
 import mpStartupLandingPage from "@/assets/images/mp.png";
+import miroStartupLandingPage from "@/assets/images/miro.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
@@ -56,6 +57,18 @@ const portfolioProjects = [
     ],
     link: "https://music-player-djang.vercel.app/",
     image: mpStartupLandingPage,
+  },
+   {
+    company: "Miro Clone",
+    year: "2024",
+    title: "Miro Clone Landing Page",
+    results: [
+      { title: "Collaborative Whiteboard" },
+      { title: "Intuitive Interface" },
+      { title: "Customizable Workspace" },
+    ],
+    link: "https://miro-hazel.vercel.app//",
+    image: miroStartupLandingPage,
   },
 ];
 
