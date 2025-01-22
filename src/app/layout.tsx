@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(inter.variable, calistoga.variable,'bg-blue-500 text-white antialiased font-sans')}>{children}</body>
+      <body className={twMerge(inter.variable, calistoga.variable,'bg-blue-600 text-white antialiased font-sans')}>{children}</body>
     </html>
   );
 }
