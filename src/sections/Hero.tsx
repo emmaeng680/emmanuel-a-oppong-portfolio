@@ -68,12 +68,8 @@ export const HeroSection = () => {
                   <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'>Aspiring Software
                       Engineer</h1>
                   <p className='mt-4 text-center text-white md:text-lg '>
-                    Hello! I'm Emmanuel Oppong, a dedicated Software Engineer and Machine Learning enthusiast. 
-                    With a passion for creating innovative and efficient solutions, I specialize in both front-end and back-end development. 
                     My expertise spans a wide range of technologies, including HTML, CSS, JavaScript, React, Node.js, Python and Java. 
                     In addition to my web development skills, I have a strong interest in Machine Learning and Artificial Intelligence. 
-                    I enjoy leveraging data-driven approaches to solve complex problems and improve user experiences. 
-                    Whether it's building dynamic web applications or developing intelligent models, I thrive on challenges and continuously seek opportunities to learn and grow in the tech field. 
                     I'm always excited to collaborate on new projects and contribute to meaningful advancements in technology. 
                     If you have a project in mind or just want to connect, feel free to reach out!
                   </p>
